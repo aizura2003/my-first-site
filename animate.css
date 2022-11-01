@@ -1,0 +1,30 @@
+button{
+    border:darkgreen;
+    background-color: darkgreen;
+    font-size: 25px;
+    color: white;
+    padding: 10px;
+}
+.box:first-child{
+    background-color:darkgoldenrod;
+}
+.box:last-child{
+    background-color:black;
+}
+.box:nth-child(4){
+    background-color: crimson;
+}
+.box:hover{
+    opacity: 0.5;
+    padding: 15px;
+}
+a:active{
+    background-color:gold;
+}
+.ai:visited{
+background: red;
+}
+input:focus{
+    padding: 15PX;
+    
+}
